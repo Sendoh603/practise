@@ -8,35 +8,37 @@
   <title>Timeline</title>
 </head>
 <body>
-  <header>My Timeline</header>
+  <div id="root">
+    <header>My Timeline</header>
 
-  <div class="add_new_status-box">
-    <div class="add_new_status">Add New Status</div>
-    <input type="text" placeholder="Message goes here..." class="message">
-    <div class="button">
-      <button>Post</button>
+    <div class="add_new_status-box">
+      <div class="add_new_status">Add New Status</div>
+      <input type="text" placeholder="Message goes here..." class="message">
+      <div class="button">
+        <button>Post</button>
+      </div>
+     </div>
+
+    <div class="post_board">
+      <div class="first_post">
+      <div class="first-line">Just Now</div>
+      <img src="./tachometer.png" alt="user">
+      <div class="content_of_message">asfasdfafdasadsfdafas</div>
+      </div>
+      <div class="second_post">
+          <div class="first-line">Just Now</div>
+          <img src="./tachometer.png" alt="user">
+          <div class="content_of_message">asfasdfafdasadsfdafas</div>
+      </div>
+      <div class="third_post">
+          <div class="first-line">Just Now</div>
+          <img src="./tachometer.png" alt="user">
+          <div class="content_of_message">asfasdfafdasadsfdafas</div>
+      </div>
     </div>
   </div>
-
-  <div class="post_board">
-    <div class="first_post">
-     <div class="first-line">Just Now</div>
-     <img src="./tachometer.png" alt="user">
-     <div class="content_of_message">asfasdfafdasadsfdafas</div>
-    </div>
-    <div class="second_post">
-        <div class="first-line">Just Now</div>
-        <img src="./tachometer.png" alt="user">
-        <div class="content_of_message">asfasdfafdasadsfdafas</div>
-    </div>
-    <div class="third_post">
-        <div class="first-line">Just Now</div>
-        <img src="./tachometer.png" alt="user">
-        <div class="content_of_message">asfasdfafdasadsfdafas</div>
-    </div>
-  </div>
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="./app.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="./app.js"></script>
 </body>
 </html>
