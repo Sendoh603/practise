@@ -1,21 +1,86 @@
 header {
   text-align: center;
   height:200px;
-  background-color: blue;
+  background-color: cornflowerblue;
   line-height:200px;
   font-size: 50px;
   font-weight: 5px;
   color: aliceblue;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .add_new_status-box {
   position: relative;
-  border:2px solid;
-  border-radius: 5px;
   width: 1000px;
   height: 100px;
   margin: auto;
-  padding:10px;
+  padding:5px;
+}
+
+.add_new_status {
+  height:30px;
+  width:1000px;
+  border: 1px solid;
+  line-height:30px;
+  
+}
+
+.message {
+  height:30px;
+  width:1000px;
+  border: 1px solid;
+}
+
+.button {
+  text-align: right;
+}
+
+button {
+  height: 30px;
+  background-color: cornflowerblue;
+  text-align: right;
+}
+
+.post_board {
+  text-align: center;
+}
+
+
+.first_post {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  padding:5px;
+}
+
+.first-line {
+  width:1000px;
+}
+
+img {
+  width:50px;
+}
+
+.content_of_message {
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.second_post {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  padding:5px;
+}
+
+.third_post {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  padding:5px;
 }
 
